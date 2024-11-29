@@ -1,7 +1,6 @@
-
 // Seleciona o elemento do quadrado e o elemento para exibir a cor
-const quadrado = document.getElementById('quadrado'); // aprendi com Pietro ahaha! //
-const corDisplay = document.getElementById('corDisplay'); 
+const quadrado = document.getElementById('quadrado');
+const corDisplay = document.getElementById('corDisplay');
 
 // Função que gera uma cor aleatória em formato RGB
 function gerarCorAleatoria() {
@@ -11,7 +10,7 @@ function gerarCorAleatoria() {
     return `rgb(${r}, ${g}, ${b})`; // Retorna a cor no formato RGB
 }
 
-// Adiciona um  evento para o clique no quadrado
+// Adiciona um ouvinte de evento para o clique no quadrado
 quadrado.addEventListener('click', () => {
     // Gera uma nova cor aleatória
     const novaCor = gerarCorAleatoria();

@@ -11,14 +11,24 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f0f0f0; /* Cor de fundo, da página, branca */
+    flex-direction: column; /* Adiciona orientação vertical */
+    background-color: #f0f0f0; /* Cor de fundo */
 }
 
 /* Estilo do quadrado */
 .quadrado {
-    width: 300px; /* Largura do quadrado */
-    height: 300px; /* Altura do quadrado */
-    background-color: #3498db; /* Cor inicial do quadrado, o quadrado sempre terá esta */
-    cursor: pointer; /* Muda o cursor para indicar que é interativo, gostei dessa função! */
+    width: 400px; /* Largura do quadrado */
+    height: 400px; /* Altura do quadrado */
+    background-color: #3498db; /* Cor inicial do quadrado */
+    cursor: pointer; /* Muda o cursor para indicar que é interativo */
     transition: background-color 0.3s; /* Transição suave de cor */
+    margin-bottom: 20px; /* Espaço entre o quadrado e o texto */
+}
+
+/* Estilo para exibir a cor em RGB */
+#corDisplay {
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    font-weight: bold;
 }
