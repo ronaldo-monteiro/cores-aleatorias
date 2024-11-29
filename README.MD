@@ -22,15 +22,18 @@ A função `gerarCorAleatoria()` cria uma cor aleatória em formato RGB. Ela ger
 
 #### segue o resultado do primeiro exemplo
 
-<img src="video1.gif" alt="Primeiro Exemplo do código!">
+<p align="center">
+  <img src="video1.gif" alt="Primeiro Exemplo do código!">
+</p>
 
 ## 
 ## Mostrando as cores embaixo do quadrado
 
 #### Adicionei uma funcionalidade na qual é possível revelar o código da cor gerada após o click do mouse
 
-<img src="video2.gif" alt="Segundo Exemplo do código!">
-
+<p align="center">
+  <img src="video2.gif" alt="Segundo Exemplo do código!">
+</p>
 
 
 ## Função `geraCorAleatoria()`
