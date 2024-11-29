@@ -12,3 +12,5 @@
 ## Mostrando as cores embaixo do quadrado
 
 #### Adicionei uma funcionalidade na qual é possível revelar o código da cor gerada após o click do mouse
+
+<img src="video2.gif" alt="Segundo Exemplo do código!">
