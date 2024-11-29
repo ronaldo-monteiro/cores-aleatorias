@@ -2,7 +2,7 @@
 
 ## Estudo de Algoritmos para Mudança de Cores com Clicks
 
-Repositório criado com a finalidade de estudar formas de algoritmos para mudança de cores com clicks. (Esta ideia surgiu de uma dúvida em sala de aula com o querido professor Pietro, "Um carioca perdido em São Paulo!" kkk)
+Repositório criado com a finalidade de estudar formas de algoritmos para mudança de cores com clicks. (Esta ideia surgiu de uma dúvida em sala de aula com o querido professor Pietro, `"Um carioca surfista perdido em São Paulo!"` kkk)
 
 Na primeira versão do código, desenvolvemos um quadrado que, ao ser "clicado", tem a cor alterada. Utilizamos a seguinte lógica: Cada componente (vermelho, verde e azul) pode assumir 256 valores distintos de 0 a 255. Sendo assim:
 
