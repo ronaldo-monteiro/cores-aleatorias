@@ -1,0 +1,24 @@
+/* Resetando as margens padrão e definindo o comportamento básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo o estilo do body para centralizar o conteúdo */
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Cor de fundo, da página, branca */
+}
+
+/* Estilo do quadrado */
+.quadrado {
+    width: 300px; /* Largura do quadrado */
+    height: 300px; /* Altura do quadrado */
+    background-color: #3498db; /* Cor inicial do quadrado, o quadrado sempre terá esta */
+    cursor: pointer; /* Muda o cursor para indicar que é interativo, gostei dessa função! */
+    transition: background-color 0.3s; /* Transição suave de cor */
+}
