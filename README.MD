@@ -8,7 +8,7 @@ Na primeira versão do código, desenvolvemos um quadrado que, ao ser "clicado",
 
 `256 x 256 x 256 = 16.777.216 milhões de cores diferentes!`
 
-Definida a lógica, vamos para o código.
+Definida a lógica, vamos para o código!
 
 
 ### Adicionei a função `gerarCorAleatoria()`
